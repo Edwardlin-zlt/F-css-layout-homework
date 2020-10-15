@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   height: 100vh;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   padding-top: 70px;
 }
 
@@ -54,24 +54,35 @@ a {
   flex-grow: 1;
   width: 100%;
   display: flex;
+  justify-content: space-evenly;
   margin-top: 20px;
 }
 
 .aside {
-  width: 25%;
+  width: 16%;
+  max-width: 200px;
+  min-width: 170px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.article-container {
+  width: 60%;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+.sign-in-form {
+  width: 16%;
 }
 
 .aside section {
-  width: 80%;
   margin-top: 26px;
   padding: 13px;
 }
 
 .aside-about {
-  background: lightgray;
+  background: #f8f9fa;
 }
 
 .footer {
