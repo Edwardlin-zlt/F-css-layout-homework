@@ -69,7 +69,7 @@ a {
 }
 
 .aside {
-  width: 16%;
+  width: 18%;
   min-width: 170px;
   display: flex;
   flex-direction: column;
@@ -84,8 +84,11 @@ a {
   max-width: 800px;
   min-width: 400px;
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-between;
+}
+
+.article-column {
+  width: 49%;
 }
 
 .aside section {
@@ -101,7 +104,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 48%;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .article-thumbnail {
@@ -138,7 +142,6 @@ a {
 }
 
 .aside-right {
-  width: 20%;
   max-width: 260px;
   align-self: center;
   padding: 20px;
