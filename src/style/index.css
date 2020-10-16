@@ -112,7 +112,8 @@ a {
   width: 100%;
   height: 100px;
   margin-bottom: 18px;
-  background: #55595c;
+  background: url("https://wallpaperaccess.com/full/629055.jpg");
+  background-size: cover;
   color: white;
   display: flex;
   align-items: center;
